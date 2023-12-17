@@ -16,5 +16,5 @@ public class Voluntario {
     private String nombre;
     private String rut;
 
-    private List<Habilidad> habilidades;
+    private List<ObjectId> habilidades;
 }

@@ -22,4 +22,9 @@ public class VoluntarioController {
     public String getAllVoluntarios(){
         return voluntarioService.getAllVoluntarios().toString();
     }
+
+    @GetMapping("/voluntarios/totalHabilidades")
+    public String getTotalHabilidades(){
+        return voluntarioService.getTotalHabilidades().toString();
+    }
 }

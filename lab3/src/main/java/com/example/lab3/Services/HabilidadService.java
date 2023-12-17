@@ -12,7 +12,7 @@ public class HabilidadService {
     private HabilidadRepository habilidadRepository;
 
     public List<Habilidad> getAllHabilidades(){
-        return HabilidadRepository.getAllHabilidades();
+        return habilidadRepository.getAllHabilidades();
     }
 }
 

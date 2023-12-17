@@ -17,4 +17,6 @@ public class HabilidadController {
     public String getAllHabilidades(){
         return habilidadService.getAllHabilidades().toString();
     }
+
+
 }

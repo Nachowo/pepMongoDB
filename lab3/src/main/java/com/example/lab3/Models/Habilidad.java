@@ -11,6 +11,6 @@ import java.util.List;
 @Data
 public class Habilidad {
     @BsonId
-    private String id;
-    private String nombreHabilidad;
+    private ObjectId _id;
+    private String nombre;
 }

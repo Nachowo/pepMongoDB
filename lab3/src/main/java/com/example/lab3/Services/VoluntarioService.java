@@ -19,4 +19,13 @@ public class VoluntarioService {
     public List<Voluntario> getAllVoluntarios(){
         return voluntarioRepository.getAllVoluntarios();
     }
+
+    public String getTotalHabilidades() {
+        List<Voluntario> voluntarios = voluntarioRepository.getAllVoluntarios();
+        String str = "";
+        for (Voluntario voluntario : voluntarios) {
+            str += voluntario.getNombre() + ": " + voluntario.getHabilidades().size() + "\n";
+        }
+        return str;
+    }
 }
