@@ -9,12 +9,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Voluntario {
+public class Habilidad {
     @BsonId
-    private ObjectId _id;
-
-    private String nombre;
-    private String rut;
-
-    private List<Habilidad> habilidades;
+    private String id;
+    private String nombreHabilidad;
 }
